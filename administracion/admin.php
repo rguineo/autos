@@ -2,13 +2,17 @@
 	include("../php/seguridad.php");
 	include("../php/conexion.php");
 	include("../php/config.php");
+
 	if($privilegio != 2){
 		header("location: ../");
 		exit();
 	}
+
+
 	$nom_pag="Administrador";
 
 	include("../php/log_user.php");
+	
 ?>
 
 <!DOCTYPE html>
