@@ -6,6 +6,9 @@
 		header("location: ../");
 		exit();
 	}
+
+	error_reporting(0);
+
 	$nom_pag='Cliente';
 
 	include("../php/log_user.php");

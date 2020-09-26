@@ -1,5 +1,7 @@
 <?php 
 // LOG para sitio (registro de actividad usuarios)
+
+date_default_timezone_set("America/Santiago");
 	$time = time();
 	$fecha = date("Y-m-d", $time);
 	$hora = date("H:i:s", $time);
